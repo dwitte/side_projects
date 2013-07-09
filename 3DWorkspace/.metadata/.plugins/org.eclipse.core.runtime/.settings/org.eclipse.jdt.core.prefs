@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.6
+org.eclipse.jdt.core.compiler.compliance=1.6
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.6
+org.eclipse.jdt.core.userLibrary.Java3D=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/u/wy/in/dwitte/side_projects/side_projects/Java3D/j3d-1_5_2-linux-amd64/lib/ext/j3dcore.jar"/>\n\t<archive path\="/u/wy/in/dwitte/side_projects/side_projects/Java3D/j3d-1_5_2-linux-amd64/lib/ext/j3dutils.jar"/>\n\t<archive path\="/u/wy/in/dwitte/side_projects/side_projects/Java3D/j3d-1_5_2-linux-amd64/lib/ext/vecmath.jar"/>\n</userlibrary>\n
