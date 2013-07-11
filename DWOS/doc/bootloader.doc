@@ -1,0 +1,7 @@
+What does a bootloader need to do?
+	The bootloader has to bring the kernel, and everything that the kernel needs to boot strap into memory, switch to an environment that the kernel will like, and then hand contrl over to the kernel.
+	Essentially, the bootloader just needs to be in protected mode.
+
+Where will the kernel be loaded?
+	We'll choose the 0x10000 physical address location. (ex=0x1000, bx=0, calling INT13h)
+
