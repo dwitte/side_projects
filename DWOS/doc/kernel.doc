@@ -1,0 +1,30 @@
+DWOS kernel:
+
+		Overview:
+			The DWOS kernel is a simple file system environment that will allow the user to read files stored on the local drive. 
+			It is a single process kernel which will only run itself.
+			Programs will not be able to be executed, and will come out in future versions.
+			There is no memory management implemented at this time.
+
+		Initialization:
+			The kernel will check to see if the OS has been stored onto the current harddrive, if there is one detected and provided the option to the user to save it to the disc. This will also save the bootloader as well, so that a floppy disc will not be required for start-up.
+			Ther kernel will provide simple commands that are found in the linux operating system. Do note that all of the funtionality for these commands will not be implemented, only the basic usage of them will be supported at this time. The supported commands are:
+				
+				cd - change directory
+				ls - list files
+				less - display the files
+				rm - remove a file or directory
+				mov - move a file or directory
+
+		File System:
+			The kernel will implement a FAT32 file system.
+			This file system will likely not be long term file system provided with the DWOS kernel.
+
+		Scheduling:
+			There will be no scheduling of task incorporated with this OS at this time, as processing of programs will not be implemented. This will be added in future versions.
+
+		Memory Management
+			There is no memory management at this time.
+
+		New Features:
+			With this version of DWOS, it will be possible to input commands via a command prompt interface. After the initialization of the kernel, the user will be allowed to view files that are stored on the disk. Writing to the disc will not be implemented at this time, and will require the development of a text editor, or the integration of an existing editor.
