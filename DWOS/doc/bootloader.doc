@@ -7,7 +7,9 @@ Where will the kernel be loaded?
 
 Loading the kernel:
 	We need to determine which partition to boot from
+		Currently has one partition that will be loaded from. Future modifications will allow multiple paritions to be selected from.
 	We need to determine where the kernel image is located on the boot partition
-	load the kernel image into memory (basic disk I/O)
-	enable protected mode
-	prepare the tunetime environment for the kernel (setting up the stack space)
+		Currently set as byte 512, or the section after the bootloader. This will be changed in the future to account for the space of a possible 2nd stage to the bootloader.
+	Load the kernel image into memory (basic disk I/O)
+	Enable protected mode
+	Prepare the runtime environment for the kernel (setting up the stack space)
